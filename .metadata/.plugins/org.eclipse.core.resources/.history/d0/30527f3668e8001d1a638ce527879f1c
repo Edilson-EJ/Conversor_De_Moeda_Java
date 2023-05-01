@@ -1,0 +1,32 @@
+
+public class OutraMoedaParaReal {
+	
+	Real real = new Real();
+	Dolar dolar =  new Dolar();
+	Euro euro = new Euro();
+	LibraEstelina libra = new LibraEstelina();
+	PesoArgentino argentino = new PesoArgentino();
+	PesoChileno chile = new PesoChileno();
+	
+	
+	public double outraMoedaParaReal(int moeda,double valor) {
+		
+		System.out.println("valores: " + moeda + " : " +valor);
+		
+		switch(moeda) {
+			case 1:
+				return valor / dolar.getDolar();
+			case 2:
+				return valor / euro.getEuro();
+			case 3:
+				return valor * libra.getLibraEstelina();
+			case 4:
+				return valor / argentino.getPesoArgentino();
+			case 5:
+				return valor / chile.getPesoChileno();
+							
+		
+		}
+		return 0;
+	}
+}

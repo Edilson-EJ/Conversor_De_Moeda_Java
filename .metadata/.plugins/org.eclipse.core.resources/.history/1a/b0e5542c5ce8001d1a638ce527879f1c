@@ -1,0 +1,15 @@
+
+public class RealParaOutraMoeda {
+	
+	Real real = new Real();
+	Dolar dolar =  new Dolar();
+	
+	public double converteParaOutraMoeda(int moeda,double valor) {
+		
+		switch(moeda) {
+			case 1:
+				return real.getReal() * dolar.getDolar();
+		}
+		return 0;
+	}
+}

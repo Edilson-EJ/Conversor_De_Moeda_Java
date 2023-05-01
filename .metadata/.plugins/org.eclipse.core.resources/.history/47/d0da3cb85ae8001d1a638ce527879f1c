@@ -1,0 +1,7 @@
+
+public class PesoArgentino {
+	
+	private double pesoArgentino = 0.1;
+	
+	
+}

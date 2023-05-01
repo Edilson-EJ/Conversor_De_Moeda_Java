@@ -1,0 +1,7 @@
+
+public class RealParaOutraMoeda {
+	
+	public double converteParaOutraMoeda() {
+		return 0;
+	}
+}

@@ -1,0 +1,14 @@
+
+public class RealParaOutraMoeda {
+	
+	Real real = new Real();
+	
+	public double converteParaOutraMoeda(int moeda,double valor) {
+		
+		switch(moeda) {
+			case 1:
+				return 
+		}
+		return 0;
+	}
+}

@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+	
+		
+		
+		System.out.println("Digite qual moeda você deseja converte para Real");
+		System.out.println("2: DOLAR");
+		System.out.println("3: EURO");
+		System.out.println("4: LIBRA ESTELINA");
+		System.out.println("5: PESO ARGENTINO");
+		System.out.println("6: PESO CHILENO");
+		int moeda = entrada.nextInt();
+		
+		System.out.println("Agora digite o valor que você deseja converte: ");
+		int valor = entrada.nextInt();
+		
+		System.out.println("Digite para  qual moeda você deseja converte de Real para: ");
+		
+		System.out.println("2: DOLAR");
+		System.out.println("3: EURO");
+		System.out.println("4: LIBRA ESTELINA");
+		System.out.println("5: PESO ARGENTINO");
+		System.out.println("6: PESO CHILENO");
+		int moedaConveter = entrada.nextInt();
+		
+		
+	}
+
+}

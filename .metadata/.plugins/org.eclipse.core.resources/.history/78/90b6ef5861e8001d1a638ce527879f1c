@@ -1,0 +1,14 @@
+
+public class PesoChileno {
+	
+	private double pesoChileno = 0.6;
+
+	public double getPesoChileno() {
+		return pesoChileno;
+	}
+
+	public void setPesoChileno(double pesoChileno) {
+		this.pesoChileno = pesoChileno;
+	}
+	
+}

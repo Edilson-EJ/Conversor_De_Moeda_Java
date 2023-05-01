@@ -1,0 +1,6 @@
+
+public class Dolar {
+	
+	private double dolar = 5;
+	
+}

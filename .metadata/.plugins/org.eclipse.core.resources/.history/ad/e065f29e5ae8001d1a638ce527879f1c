@@ -1,0 +1,6 @@
+
+public class PesoChileno {
+	
+	private double pesoChileno = 0.6;
+	
+}

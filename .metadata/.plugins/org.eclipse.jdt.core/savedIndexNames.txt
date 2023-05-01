@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Edilson\Desktop\Programação-EJ\Converso De Moedas(Java)\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+4171043057.index
+3893807829.index
